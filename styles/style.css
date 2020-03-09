@@ -22,8 +22,9 @@ h4 {
     font-size: 13pt;
     font-weight: bold;
 }
-h5{
-    font-size: .85em;
+
+h5 {
+    font-size: .9em;
 }
 
 h3 {
@@ -49,21 +50,22 @@ h3 {
     background-image: linear-gradient(to right, #ca9f12 40%, white 100%);
     margin-bottom: 5px;
 }
-.header-exercise > span{
+
+.header-exercise>span {
     background-image: url('../images/icons/exercise_icon.svg');
     background-size: contain;
     background-repeat: no-repeat;
     padding-left: 32px;
     font-size: .9em;
-    font-weight: bold;   
+    font-weight: bold;
 }
 
 .header-sub {
     background-image: linear-gradient(to right, #70cd5e 40%, white 100%);
     padding: 6px;
-    padding-left: 8px;
-    margin : 10pt 0px ;
-    margin-bottom: 5px;   
+    /* padding-left: 8px; */
+    /* margin : 10pt 0px ; */
+    margin-bottom: 5px;
 }
 
 dd {
@@ -103,34 +105,41 @@ p {
 .fig-img {
     display: block;
     border-radius: 5px 5px 0 0;
-    width: 100px;
-    height: 100px;
-
+    /* width: 100px;  */
+     /* height: 100px; */
 }
- .fig-caption{
+
+.fig-caption {
     text-align: center;
-    margin-top: -10px;
+    /* margin-top: -5px; */
     font-size: .8em;
     margin-bottom: 10px;
 }
 
- .caption {
+.caption {
     padding: 3px;
     text-align: center;
     font-size: .7em;
 }
 
-table{
+table {
     margin-bottom: 12px;
     font-size: .97em;
-    width: 100%;
     border-collapse: collapse;
 }
 
-.thought-icon{
-    margin : 5px;
+th {
+    font-size: .9em;
+}
+
+.thought-icon {
+    margin: 5px;
     margin-top: 0px;
     width: 30px;
 }
+.thought-bubble{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
 
-  /* background: #74ca12; green*/ 
+/* background: #74ca12; green*/
