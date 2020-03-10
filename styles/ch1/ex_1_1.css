@@ -1,7 +1,4 @@
 table, th, td {
-    /* border: 1px solid black; */
-    
-    /* margin: 0px 6px; */
     
 }
 table{
@@ -27,6 +24,7 @@ td{
 .fig{
     margin: 10px auto;
     width: 100px;
+    height: 100px;
 }
 
 #table_ex_1_1_2{
