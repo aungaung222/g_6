@@ -1,17 +1,17 @@
-#list{
+#list-question{
     list-style: none;
     margin : 0;
     padding-left : 28px;
 }
-#list > li{
+#lilist-questionst > li{
     margin : 0;
     margin-bottom: 10px;
 }
 
-#list li:nth-child(1):before {content: "၁။"; margin-left: -28px; padding : 0px 7px;}
-#list li:nth-child(2):before {content: "၂။"; margin-left: -28px; padding : 0px 7px;}
-#list li:nth-child(3):before {content: "၃။"; margin-left: -28px; padding : 0px 7px;} 
-#list li:nth-child(4):before {content: "၄။"; margin-left: -28px; padding : 0px 7px;} 
-#list li:nth-child(5):before {content: "၅။"; margin-left: -28px; padding : 0px 7px;} 
+#list-question li:nth-child(1):before {content: "၁။"; margin-left: -28px; padding : 0px 7px;}
+#list-question li:nth-child(2):before {content: "၂။"; margin-left: -28px; padding : 0px 7px;}
+#list-question li:nth-child(3):before {content: "၃။"; margin-left: -28px; padding : 0px 7px;} 
+#list-question li:nth-child(4):before {content: "၄။"; margin-left: -28px; padding : 0px 7px;} 
+#list-question li:nth-child(5):before {content: "၅။"; margin-left: -28px; padding : 0px 7px;} 
 
 
