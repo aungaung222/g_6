@@ -119,7 +119,7 @@ p {
 .caption {
     padding: 3px;
     text-align: center;
-    font-size: .7em;
+    font-size: .75em;
 }
 
 table {
@@ -143,3 +143,10 @@ th {
 }
 
 /* background: #74ca12; green*/
+
+.label_css2d{
+    background: #7fdd6d;
+    border: 1px solid #60a851;
+    border-radius: 3px;
+    padding: 3px;
+}
