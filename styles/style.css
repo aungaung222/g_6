@@ -7,6 +7,7 @@ body {
     margin: 0;
     font-family: "MON3 Anonta 1";
     font-size: .9em;
+    line-height: 1.7em;
     src: url("../styles/fonts/MON3Anonta1.ttf")
 }
 
@@ -152,28 +153,18 @@ th {
 }
 
 /*  question list */
-.list-question{
-    list-style: none;
-    margin : 0;
-    padding-left : 28px;
-}
-.list-question > li{
-    margin : 0;
-    margin-bottom: 10px;
+.question-list{
+
 }
 
-.list-question li:nth-child(1):before {content: "၁။"; margin-left: -28px; padding : 0px 7px;}
-.list-question li:nth-child(2):before {content: "၂။"; margin-left: -28px; padding : 0px 7px;}
-.list-question li:nth-child(3):before {content: "၃။"; margin-left: -28px; padding : 0px 7px;} 
-.list-question li:nth-child(4):before {content: "၄။"; margin-left: -28px; padding : 0px 7px;} 
-.list-question li:nth-child(5):before {content: "၅။"; margin-left: -28px; padding : 0px 7px;} 
-.list-question li:nth-child(6):before {content: "၆။"; margin-left: -28px; padding : 0px 7px;} 
-.list-question li:nth-child(7):before {content: "၇။"; margin-left: -28px; padding : 0px 7px;} 
-.list-question li:nth-child(8):before {content: "၈။"; margin-left: -28px; padding : 0px 7px;} 
-.list-question li:nth-child(9):before {content: "၉။"; margin-left: -28px; padding : 0px 7px;}
-.list-question li:nth-child(10):before {content: "၁၀။"; margin-left: -28px; padding : 0px 7px;} 
-.list-question li:nth-child(11):before {content: "၁၁။"; margin-left: -28px; padding : 0px 7px;} 
-.list-question li:nth-child(12):before {content: "၁၂။"; margin-left: -28px; padding : 0px 7px;} 
-.list-question li:nth-child(13):before {content: "၁၃။"; margin-left: -28px; padding : 0px 7px;} 
-.list-question li:nth-child(14):before {content: "၁၄။"; margin-left: -28px; padding : 0px 7px;} 
-.list-question li:nth-child(15):before {content: "၁၅။"; margin-left: -28px; padding : 0px 7px;} 
+table.question-list td{
+    padding-bottom: 10px;
+    
+}
+.question-list td:first-child {
+    text-align: right;
+    padding-left: 5px;
+    padding-right: 5px;
+    vertical-align: top;
+}​
+\
