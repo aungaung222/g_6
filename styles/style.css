@@ -82,8 +82,8 @@ p {
     
     text-align: justify;
     font-size: .9em;
-    line-height: 1.9em;
-}
+    line-height: 1.8em !important;
+} 
 
 table td, table th {
     font-size: .9em;
@@ -98,37 +98,43 @@ table td, table th {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    margin: 10px;
+    margin: 5px 0px;
 }
 
 .fig {
-    box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.253);
+    box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.308);
     transition: 0.3s;
-    border-radius: 4px;
-    margin: 5px;
+    border-radius: 5px;
+    margin: 5px 3px;
     margin-bottom: 10px;
+    /* border-radius: 5px 5px 0px 0px; */
+    padding: 2.5px;
+    background: #141414;
+    
 }
 
 .fig-img {
-    display: block;
-    border-radius: 5px 5px 0 0;
-    /* width: 100px;  */
-     /* height: 100px; */
-     /* width: 100%;
-    height: 100%; */
+    
+}
+.fig-img > canvas{
+    /* border-radius: 5px 5px 0 0; */
 }
 
 .fig-caption {
     text-align: center;
-    /* margin-top: -5px; */
+    margin-top: -8px;
     font-size: .8em;
     margin-bottom: 10px;
+    
 }
 
 .caption {
-    padding: 3px;
+    padding: 0;
+    padding-top: 2px;
     text-align: center;
     font-size: .8em;
+    background: #141414;
+    color: #818181;
 }
 
 table {
