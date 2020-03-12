@@ -1,12 +1,12 @@
-#table-ex-1-4{
-    background: yellowgreen;
-    margin: 3px;
-    border: 1px solid black;
-    border-collapse: collapse;
+#table-ex-1-4-9{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+#table-ex-1-4-9 td{
+    text-align: center;
 }
 
-
-  #table-ex-1-4, #table-ex-1-4 th,#table-ex-1-4 td {
-    border: 1px solid black;
-  }
-  
+#fig-q9-1, #fig-q9-2, #fig-q9-3{
+    width: 100px;
+    height: 100px;
+}

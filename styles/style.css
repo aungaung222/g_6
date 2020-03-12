@@ -1,13 +1,11 @@
 @font-face {
     font-family: "MON3 Anonta 1";
     src: url("../styles/fonts/MON3Anonta1.ttf");
-    
 }
 
 body {
     margin: 0;
     font-family: "MON3 Anonta 1";
-    
     src: url("../styles/fonts/MON3Anonta1.ttf")
 }
 
@@ -80,11 +78,10 @@ p {
     margin-bottom: 5pt;
     margin-left: 5pt;
     margin-right: 5pt;
-    
     text-align: justify;
     font-size: .9em;
     line-height: 1.8em !important;
-} 
+}
 
 table td, table th {
     font-size: .9em;
@@ -111,13 +108,11 @@ table td, table th {
     /* border-radius: 5px 5px 0px 0px; */
     padding: 2.5px;
     background: #141414;
-    
 }
 
-.fig-img {
-    
-}
-.fig-img > canvas{
+.fig-img {}
+
+.fig-img>canvas {
     /* border-radius: 5px 5px 0 0; */
 }
 
@@ -126,7 +121,6 @@ table td, table th {
     margin-top: -8px;
     font-size: .8em;
     margin-bottom: 10px;
-    
 }
 
 .caption {
@@ -140,8 +134,6 @@ table td, table th {
 
 table {
     margin-bottom: 12px;
-    
-    border-collapse: collapse;
 }
 
 .thought-icon {
@@ -149,7 +141,8 @@ table {
     margin-top: 0px;
     width: 30px;
 }
-.thought-bubble{
+
+.thought-bubble {
     margin-top: 15px;
     margin-bottom: 15px;
     font-size: .9em;
@@ -157,7 +150,7 @@ table {
 
 /* background: #74ca12; green*/
 
-.label_css2d{
+.label_css2d {
     background: #7fdd6d;
     border: 1px solid #60a851;
     border-radius: 3px;
@@ -165,18 +158,27 @@ table {
 }
 
 /*  question list */
-.question-list{
 
-}
+.question-list {}
 
-table.question-list td{
+table.question-list td {
     padding-bottom: 10px;
     line-height: 1.8em !important;
-    
 }
+
 .question-list td:first-child {
     text-align: right;
     padding-left: 5px;
     padding-right: 5px;
     vertical-align: top;
-}​
+}
+
+table.bordered-table{
+    border-collapse: collapse;
+}
+
+table.bordered-table th, table.bordered-table td, table.bordered-table table{
+    border: 1px solid grey;
+    padding: 3px 0;
+}
+
