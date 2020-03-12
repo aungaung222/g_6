@@ -51,6 +51,8 @@ h3 {
     text-align: center;
     background-image: linear-gradient(to right, #ca9f12 40%, white 100%);
     margin-bottom: 5px;
+    padding-top: 3px;
+    padding-bottom: 3px;
 }
 
 .header-exercise>span {
@@ -58,13 +60,12 @@ h3 {
     background-size: contain;
     background-repeat: no-repeat;
     padding-left: 32px;
-    /* font-size: .9em; */
     font-weight: bold;
 }
 
 .header-sub {
     background-image: linear-gradient(to right, #70cd5e 40%, white 100%);
-    padding: 6px;
+    padding: 5px;
     /* padding-left: 8px; */
     /* margin : 10pt 0px ; */
     margin-bottom: 5px;
@@ -143,7 +144,6 @@ table {
     border-collapse: collapse;
 }
 
-
 .thought-icon {
     margin: 5px;
     margin-top: 0px;
@@ -171,6 +171,7 @@ table {
 
 table.question-list td{
     padding-bottom: 10px;
+    line-height: 1.8em !important;
     
 }
 .question-list td:first-child {
