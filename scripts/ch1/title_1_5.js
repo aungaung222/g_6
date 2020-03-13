@@ -1,0 +1,1 @@
+Viz.createVizWindow("fig-img-1-8")
