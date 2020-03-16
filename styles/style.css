@@ -1,12 +1,12 @@
 @font-face {
-    font-family: "MON3 Anonta 1";
-    src: url("../styles/fonts/MON3Anonta1.ttf");
+    font-family: "Pyidaungsu";
+    src: url("../styles/fonts/Pyidaungsu-2.5.3_Regular.ttf")
 }
 
 body {
     margin: 0;
-    font-family: "MON3 Anonta 1";
-    src: url("../styles/fonts/MON3Anonta1.ttf")
+    font-family: "Pyidaungsu";
+    src: url("../styles/fonts/Pyidaungsu-2.5.3_Regular.ttf")
 }
 
 h2, h3, h4, h5 {
@@ -72,6 +72,17 @@ h3 {
 dd {
     color: hsl(59, 98%, 43%)
 }
+/* @media (min-width: 768px) and (max-width: 1024px) {
+    p{
+        line-height: 38px !important;
+    }
+} */
+
+
+td, th {
+    font-size: 16px;
+    /* color : blue; */
+}
 
 p {
     margin-top: 0pt;
@@ -79,13 +90,10 @@ p {
     margin-left: 5pt;
     margin-right: 5pt;
     text-align: justify;
-    font-size: .9em;
-    line-height: 1.8em !important;
+    font-size: 16.5px;
 }
 
-table td, table th {
-    font-size: .9em;
-}
+
 
 .paragraph {
     text-indent: 35pt;
@@ -154,7 +162,7 @@ table {
     background: #7fdd6d;
     border: 1px solid #60a851;
     border-radius: 3px;
-    padding: 3px;
+    padding: 2.5px 5px;
 }
 
 /*  question list */
@@ -173,12 +181,45 @@ table.question-list td {
     vertical-align: top;
 }
 
-table.bordered-table{
+table.bordered-table {
     border-collapse: collapse;
 }
 
-table.bordered-table th, table.bordered-table td, table.bordered-table table{
+table.bordered-table th, table.bordered-table td, table.bordered-table table {
     border: 1px solid grey;
     padding: 3px 0;
 }
 
+.menu-button {
+    margin-left: 2px;
+}
+
+/* slider */
+.slider {
+    -webkit-appearance: none;
+    width: 100%;
+    height: 4px;
+    border-radius: 2px;
+    background: #6b5f52;
+    outline: none;
+    padding: 0;
+    margin: 0;
+}
+
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background: #ff7f00;
+    cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background: #ff7f00;
+    cursor: pointer;
+}

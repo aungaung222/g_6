@@ -1,4 +1,38 @@
 #fig-img-1-10, #fig-img-1-11, #fig-img-1-12, #fig-img-1-13{
-    width: 400px;
-    height: 230px;
+    width: 500px;
+    height: 330px;
+}
+
+.fig-caption{
+    margin-top: 20px;
+}
+
+.fig{
+    position: relative;
+}
+
+.slider{
+    position: absolute;
+    left: 0;
+    bottom: -28px;
+    width: 100%;
+    z-index: 10;
+}
+
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #ff7f00;
+    cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #ff7f00;
+    cursor: pointer;
 }
