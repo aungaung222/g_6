@@ -5,18 +5,30 @@
 #fig-img-eg-1,#fig-img-eg-2, #fig-img-eg-3, #fig-img-eg-4{
     width: 330px;
     height: 200px;
-    background : red;
+    background : rgb(73, 43, 43);
     margin: 0 auto;
     padding: 0px;
+    border-radius: 3px;
 }
-#fig-img-fig-2-3{
+#fig-img-fig-2-3, #fig-img-fig-2-4, #fig-img-fig-2-5, #fig-img-five-lines, #fig-img-fig-2-6-i, #fig-img-fig-2-6-ii{
     width: 330px;
     height: 200px;
-    background : rgb(0, 162, 255);
+    background : rgb(57, 75, 85);
     margin: 0 auto;
+    border-radius: 3px;
 }
 
 ul{
     margin-top: 20px;
     margin-bottom: 10px;
+}
+
+#fig-img-fig-2-7-i, #fig-img-fig-2-7-ii, #fig-img-fig-2-8{
+    width: 330px;
+    height: 130px;
+    background : rgb(73, 43, 43);
+    margin: 0 auto;
+    padding: 0px;
+    border-radius: 3px;
+ 
 }
