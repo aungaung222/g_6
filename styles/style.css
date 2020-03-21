@@ -79,10 +79,10 @@ dd {
 } */
 
 
-td, th {
+/* td, th {
     font-size: 16px;
     /* color : blue; */
-}
+/* }  */
 
 p {
     margin-top: 0pt;
@@ -130,6 +130,12 @@ p {
     font-size: .8em;
     margin-bottom: 10px;
 }
+/* "n"  means normal */
+.fig-caption-n{
+    text-align: center;
+    font-size: .8em;
+    margin-bottom: 10px;
+}
 
 .caption {
     padding: 0;
@@ -142,7 +148,13 @@ p {
 
 table {
     margin-bottom: 12px;
+    
 }
+
+table td, table th {
+    font-size: 16.5px;
+}
+
 
 .thought-icon {
     margin: 5px;
@@ -222,4 +234,42 @@ table.bordered-table th, table.bordered-table td, table.bordered-table table {
     border-radius: 50%;
     background: #ff7f00;
     cursor: pointer;
+}
+
+.full-width-image, .full-width-video{
+    width: 100%;
+    
+}
+.full-width-frame{
+    background: black;
+}
+
+ul{
+    margin: 3px;
+    margin-bottom: 14px;
+    font-size: 16.5px;
+}
+
+.thought-buggle-on-start{
+    padding-left: 40px;
+    background-image: url(../images/icons/thought-bubble.svg);
+    background-repeat: no-repeat;
+    background-size: 36px 36px;
+    background-position-y: 7px;
+    margin-left: 2px;
+}
+
+.exercise-on-start{
+    padding-left: 40px;
+    background-image: url(../images/icons/exercise_icon.svg);
+    background-repeat: no-repeat;
+    background-size: 36px 36px;
+    background-position-y: 7px;
+    margin-left: 2px;
+}
+
+.boxed-paragraph{
+    border: 1.3px solid gray;
+    border-radius: 3px;
+    padding: 5px;
 }

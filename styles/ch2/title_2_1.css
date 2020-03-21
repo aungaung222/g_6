@@ -1,0 +1,22 @@
+/* img{
+    width: 100%;
+} */
+
+#fig-img-eg-1,#fig-img-eg-2, #fig-img-eg-3, #fig-img-eg-4{
+    width: 330px;
+    height: 200px;
+    background : red;
+    margin: 0 auto;
+    padding: 0px;
+}
+#fig-img-fig-2-3{
+    width: 330px;
+    height: 200px;
+    background : rgb(0, 162, 255);
+    margin: 0 auto;
+}
+
+ul{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
