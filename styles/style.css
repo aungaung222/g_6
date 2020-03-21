@@ -57,7 +57,7 @@ h3 {
     background-image: url('../images/icons/exercise_icon.svg');
     background-size: contain;
     background-repeat: no-repeat;
-    padding-left: 32px;
+    padding-left: 39px;
     font-weight: bold;
 }
 
@@ -92,8 +92,6 @@ p {
     text-align: justify;
     font-size: 16.5px;
 }
-
-
 
 .paragraph {
     text-indent: 35pt;
@@ -256,39 +254,22 @@ ul{
     background-repeat: no-repeat;
     background-size: 36px 36px;
     background-position-y: 7px;
-    margin-left: 4px;
+    margin-left: 2px;
     margin-bottom: 15px;
 }
 
 .exercise-on-start{
-    padding-left: 37px;
+    padding-left: 40px;
     background-image: url(../images/icons/exercise_icon.svg);
     background-repeat: no-repeat;
     background-size: 36px 36px;
     background-position-y: 7px;
-    margin-left: 4px;
+    margin-left: 2px;
 }
 
 .boxed-paragraph{
     border: 1.3px solid gray;
     border-radius: 3px;
     padding: 5px;
-    margin-bottom: 5pt;
-    margin-left: 5pt;
-    margin-right: 5pt;
-    
+    margin-bottom: 15px;
 }
-
-.myan-list{
-    list-style: none;
-    padding: 0px 25px;
-    margin : 5px 0px;
-}
-.myan-list li{
-    margin-bottom: 8px;
-}
-/* myanmar ordered list */
-.myan-list li:nth-child(1):before {content: "၁။"; margin-left: -28px; padding : 0px 7px;}
-.myan-list li:nth-child(2):before {content: "၂။"; margin-left: -28px; padding : 0px 7px;}
-.myan-list li:nth-child(3):before {content: "၃။"; margin-left: -28px; padding : 0px 7px;}
-
