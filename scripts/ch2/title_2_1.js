@@ -16,4 +16,6 @@ function applyColor(element) {
   document.body.style.backgroundColor = color;
 }
 
+Ch_2.getFig2_2("fig-img-2-2")
+
 

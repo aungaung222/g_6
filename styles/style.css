@@ -6,7 +6,8 @@
 body {
     margin: 0;
     font-family: "Pyidaungsu";
-    src: url("../styles/fonts/Pyidaungsu-2.5.3_Regular.ttf")
+    src: url("../styles/fonts/Pyidaungsu-2.5.3_Regular.ttf");
+    line-height : 1.8em;
 }
 
 h2, h3, h4, h5 {
@@ -181,7 +182,7 @@ table td, table th {
 
 table.question-list td {
     padding-bottom: 10px;
-    line-height: 1.8em !important;
+    /* line-height: 1.8em !important; */
 }
 
 .question-list td:first-child {
@@ -246,6 +247,10 @@ ul{
     margin: 3px;
     margin-bottom: 14px;
     font-size: 16.5px;
+    padding-left: 20px;
+}
+ul > li{
+    margin-bottom: 6px;
 }
 
 .thought-buggle-on-start{
@@ -253,7 +258,7 @@ ul{
     background-image: url(../images/icons/thought-bubble.svg);
     background-repeat: no-repeat;
     background-size: 36px 36px;
-    background-position-y: 7px;
+    background-position-y: 6px;
     margin-left: 2px;
     margin-bottom: 15px;
 }
@@ -263,7 +268,7 @@ ul{
     background-image: url(../images/icons/exercise_icon.svg);
     background-repeat: no-repeat;
     background-size: 36px 36px;
-    background-position-y: 7px;
+    background-position-y: 0px;
     margin-left: 2px;
 }
 
@@ -272,4 +277,9 @@ ul{
     border-radius: 3px;
     padding: 5px;
     margin-bottom: 15px;
+    margin-left: 5pt;
+    margin-right: 5pt;
+}
+.exercise-on-start > .boxed-paragraph{
+    margin-left: 2px;
 }

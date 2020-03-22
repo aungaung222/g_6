@@ -18,6 +18,8 @@ for (var i = 0; i < gifs.length; i++) {
   gifs[i].playing = false;
   gifs[i].loop = true;
   gifs[i].style.borderRadius = "6px"
+  var color = gifs[i].getAttribute("data-color");
+  
 
   var parent = gifs[i].parentElement;
   parent.style.position = "relative";
@@ -25,10 +27,19 @@ for (var i = 0; i < gifs.length; i++) {
   parent.style.padding = "0px"
 
   var play_icon = document.createElement("img");
-  play_icon.src = "../../images/icons/play.svg";
+  if(color == "w"){
+    play_icon.src = "../../images/icons/play-grey.svg";
+  }
+  else{
+    play_icon.src = "../../images/icons/play.svg";
+  }
+  
   play_icon.style.position = "absolute";
-  play_icon.style.width = "70px"
-  play_icon.style.height = "70px"
+
+  const size = width / 7;
+
+  play_icon.style.width = size + "px"
+  play_icon.style.height = size + "px"
   play_icon.style.left = "50%";
   play_icon.style.top = "50%";
   play_icon.style.zIndex = 3;
