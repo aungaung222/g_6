@@ -37,7 +37,7 @@ for (var i = 0; i < gifs.length; i++) {
 
   play_icon.style.position = "absolute";
 
-  const size = width / 7;
+  const size = width / 10;
 
   play_icon.style.width = size + "px"
   play_icon.style.height = size + "px"
