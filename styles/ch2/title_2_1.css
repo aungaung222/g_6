@@ -29,5 +29,14 @@ ul{
     margin: 0 auto;
     padding: 0px;
     border-radius: 3px;
- 
+}
+
+#fig-img-eg-2{
+    display: flex;
+}
+
+#fig-img-eg-2 > img{
+    margin:  auto 0 ;
+    display: block;
+    
 }
