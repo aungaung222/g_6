@@ -107,7 +107,7 @@ p {
 }
 
 .fig {
-    box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.308);
+    box-shadow: 0px 3px 5px 2px rgba(0, 0, 0, 0.308);
     transition: 0.3s;
     border-radius: 5px;
     margin: 5px 3px;
@@ -116,6 +116,20 @@ p {
     padding: 2.5px;
     background: #141414;
 }
+
+
+.card-border {
+    box-shadow: 0px 3px 5px 2px rgba(0, 0, 0, 0.308);
+    transition: 0.3s;
+    border-radius: 5px;
+    margin: 5px 3px;
+    
+    /* border-radius: 5px 5px 0px 0px; */
+    padding: 2.5px;
+}
+
+
+
 
 .fig-img {}
 
@@ -318,10 +332,9 @@ ul.gallery {
 .jssorb072 .iav .b {fill:#000;opacity:.5;}
 .jssorb072 .i.idn {opacity:.3;}
 
-/*jssor slider arrow skin 073 css*/
-.jssora073 {display:block;position:absolute;cursor:pointer;}
-.jssora073 .a {fill:rgb(235, 235, 235);fill-opacity:.7;stroke:rgb(31, 31, 31);stroke-width:160;stroke-miterlimit:10;stroke-opacity:.7;}
-.jssora073:hover {opacity:.8;}
-.jssora073.jssora073dn {opacity:.4;}
-.jssora073.jssora073ds {opacity:.3;pointer-events:none;}
 
+.jssora073 {display:block;position:absolute;cursor:pointer;}
+.jssora073 .a {fill:none;stroke:#fff;stroke-width:360;stroke-miterlimit:10;}
+.jssora073:hover {opacity:.8;}
+.jssora073.jssora073dn {opacity:.5;}
+.jssora073.jssora073ds {opacity:.3;pointer-events:none;}

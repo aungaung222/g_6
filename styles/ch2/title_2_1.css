@@ -10,12 +10,20 @@
     padding: 0px;
     border-radius: 3px;
 }
-#fig-img-fig-2-3, #fig-img-fig-2-4, #fig-img-fig-2-5, #fig-img-five-lines, #fig-img-fig-2-6-i, #fig-img-fig-2-6-ii{
+ #fig-img-fig-2-4, #fig-img-fig-2-5, #fig-img-five-lines, #fig-img-fig-2-6-i, #fig-img-fig-2-6-ii{
     width: 330px;
     height: 200px;
     background : rgb(57, 75, 85);
     margin: 0 auto;
     border-radius: 3px;
+}
+
+#card-2-3{
+    margin: 0 5px;;
+}
+#img-fig-2-3, #img-fig-2-4, #img-fig-2-5{
+    width: 100%;
+    display: block;
 }
 
 ul{
